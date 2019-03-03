@@ -1,0 +1,446 @@
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.exe
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.pdb
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.xml
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.exe
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.xml
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+c:\users\carlos vilchis.laptop-5mn2qrh1\documents\visual studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis.LAPTOP-5MN2QRH1\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Sandra\Documents\2018 Sistemas\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Documents\Visual Studio 2010\Projects\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\bin\Debug\Login.exe.config
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.exe
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.xml
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\bin\Debug\Login.exe
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\bin\Debug\Login.pdb
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\bin\Debug\Login.xml
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+E:\tICKETS\ZINACANTEPEC ROJOS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Documents\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+E:\tICKETS\Caloma\Registro Diesel\Login\bin\Debug\Login.exe.config
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.exe
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.xml
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+E:\tICKETS\Caloma\Registro Diesel\Login\bin\Debug\Login.exe
+E:\tICKETS\Caloma\Registro Diesel\Login\bin\Debug\Login.pdb
+E:\tICKETS\Caloma\Registro Diesel\Login\bin\Debug\Login.xml
+E:\tICKETS\Caloma\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+E:\tICKETS\Caloma\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\bin\Debug\Login.exe.config
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.exe
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.xml
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\bin\Debug\Login.exe
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\bin\Debug\Login.pdb
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\bin\Debug\Login.xml
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+E:\tICKETS\Cacalomacan\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+E:\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.exe.config
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.exe
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.xml
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+E:\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.exe
+E:\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.pdb
+E:\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.xml
+E:\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+E:\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\bin\Debug\IrisSkin2.dll
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Acahualco\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\tICKETS\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Users\Carlos Vilchis\Desktop\rESPALDO rEGISTRO tICKEYES\Zina Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Zinacantepec Azules\Registro Diesel\Login\bin\Debug\Login.exe.config
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.exe
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.xml
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+C:\Zinacantepec Azules\Registro Diesel\Login\bin\Debug\Login.exe
+C:\Zinacantepec Azules\Registro Diesel\Login\bin\Debug\Login.pdb
+C:\Zinacantepec Azules\Registro Diesel\Login\bin\Debug\Login.xml
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+C:\Zinacantepec Azules\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+D:\Registro Diesel\Login\bin\Debug\Login.exe.config
+D:\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+D:\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+D:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+D:\Registro Diesel\Login\obj\x86\Debug\Login.exe
+D:\Registro Diesel\Login\obj\x86\Debug\Login.xml
+D:\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+D:\Registro Diesel\Login\bin\Debug\Login.exe
+D:\Registro Diesel\Login\bin\Debug\Login.pdb
+D:\Registro Diesel\Login\bin\Debug\Login.xml
+D:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+D:\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+D:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+E:\Registro Diesel\Login\bin\Debug\Login.exe.config
+E:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+E:\Registro Diesel\Login\bin\Debug\Login.exe
+E:\Registro Diesel\Login\bin\Debug\Login.pdb
+E:\Registro Diesel\Login\bin\Debug\Login.xml
+E:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbprojResolveAssemblyReference.cache
+E:\Registro Diesel\Login\obj\x86\Debug\Login.EnviarCorreo.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatOficinas.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmCatResponsables.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatOficinas.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetCatResponsables.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.Login.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.Resources.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
+E:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+E:\Registro Diesel\Login\obj\x86\Debug\Login.exe
+E:\Registro Diesel\Login\obj\x86\Debug\Login.xml
+E:\Registro Diesel\Login\obj\x86\Debug\Login.pdb
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Registro Diesel\Login\bin\Debug\FlashControlV71.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Registro Diesel\Login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Registro Diesel\Login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Registro Diesel\Login\bin\Debug\stdole.dll
+G:\Registro Diesel\Login\bin\Debug\Login.exe.config
+G:\Registro Diesel\Login\obj\x86\Debug\Interop.CRDESIGNERLib.dll
+G:\Registro Diesel\Login\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+G:\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.ResolveComReference.cache
+G:\Registro Diesel\Login\obj\x86\Debug\Login.exe
+G:\Registro Diesel\Login\obj\x86\Debug\Login.xml
+G:\Registro Diesel\Login\obj\x86\Debug\Login.pdb
