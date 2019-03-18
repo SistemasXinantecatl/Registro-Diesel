@@ -180,6 +180,12 @@
       <DependentUpon>frmGeneraExcel.vb</DependentUpon>
     </Compile>
     <Compile Include="frmGeneraExcel.vb" />
+    <Compile Include="frmPagoOperadores.Designer.vb">
+      <DependentUpon>frmPagoOperadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagoOperadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmRecaudacion.Designer.vb">
       <DependentUpon>frmRecaudacion.vb</DependentUpon>
     </Compile>
@@ -250,6 +256,12 @@
       <DependentUpon>rptDetalleTickets.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="rptReciboPagos.vb">
+      <DependentUpon>rptReciboPagos.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="rptRecaudaciones.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -307,6 +319,9 @@
     <EmbeddedResource Include="frmGeneraExcel.resx">
       <DependentUpon>frmGeneraExcel.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPagoOperadores.resx">
+      <DependentUpon>frmPagoOperadores.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRecaudacion.resx">
       <DependentUpon>frmRecaudacion.vb</DependentUpon>
     </EmbeddedResource>
@@ -341,6 +356,10 @@
     <EmbeddedResource Include="rptDetalleTickets.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptDetalleTickets.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReciboPagos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReciboPagos.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="rptRecaudaciones.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

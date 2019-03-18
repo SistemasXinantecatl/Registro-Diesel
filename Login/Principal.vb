@@ -225,6 +225,10 @@ Public Class Principal
         frmReporte.Show()
     End Sub
 
+    Private Sub SaldosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaldosToolStripMenuItem.Click
+        frmPagoOperadores.ShowDialog()
+    End Sub
+
     Private Sub ReporteTicketsCanceladosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ReporteTicketsCanceladosToolStripMenuItem.Click
         frmReporte.MdiParent = Me
         frmReporte.Text = "Tickets Cancelados"

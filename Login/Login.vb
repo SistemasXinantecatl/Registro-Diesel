@@ -13,7 +13,7 @@ Public Class Login
         ServerIni = Application.StartupPath & "\" & "Servidor.Ini"
         Server = My.Computer.FileSystem.ReadAllText(ServerIni)
         Oficina = My.Computer.FileSystem.ReadAllText(Application.StartupPath + "\OficinaSistema.ini")
-        connStringSql = "Server =" & Server & ";initial catalog = dbSistema;user id = sa;password = 12345678"
+        connStringSql = "Server = " & Server & ";initial catalog = dbSistema;user id = sa;password = 12345678"
         Llena_Combos(cmbUsuario)
     End Sub
 
@@ -111,4 +111,7 @@ Public Class Login
         End If
     End Sub
 
+    Private Sub cmbUsuario_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbUsuario.SelectedIndexChanged
+
+    End Sub
 End Class
