@@ -12,10 +12,10 @@ Public Class frmPagoOperadores
     Dim selectedItem As Object
     Dim mayores As String
     Dim FechaDia As Date
-    Dim dt As New DataTable
-    Dim cr As New rptReciboPagos
-    Dim R As New Reporte
-    Dim DataSet1 = New DataSet()
+
+
+
+
 
 
 
@@ -44,6 +44,7 @@ Public Class frmPagoOperadores
     End Sub
 
     Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+        Me.Refresh()
         Dim strSQL As String = ""
         Dim i As Integer
         If (CSng(txtCobAcc.Text) < Val(txtPagAcc.Text)) Then
@@ -87,6 +88,7 @@ Public Class frmPagoOperadores
         Else
             MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         End If
+
         txtXpAcc.Text = CSng(txtCobAcc.Text) - Val(txtPagAcc.Text)
         txtXpVid.Text = CSng(txtCobVid.Text) - Val(txtPagVid.Text)
         txtXpInf.Text = CSng(txtCobInf.Text) - Val(txtPagInf.Text)
@@ -94,11 +96,10 @@ Public Class frmPagoOperadores
         txtXpInfo.Text = CSng(txtCobInfo.Text) - Val(txtPagInfo.Text)
         txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
         Call formatos_pagos()
-        cr.SetParameterValue("Operador", ClaveOpe)
-        R.CrystalReportViewer1.ReportSource = cr
-        ' R.MdiParent = Me
-        R.WindowState = FormWindowState.Maximized
-        R.Show()
+        Call Imprimir(ClaveOpe)
+
+
+
     End Sub
 
     Private Sub cmbOper_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles cmbOper.SelectionChangeCommitted
@@ -125,7 +126,7 @@ Public Class frmPagoOperadores
     End Sub
 
     Private Sub frmPagoOperadores_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.Refresh()
         Llena_Combos(cmbOper)
         FechaDia = Today
         txtXpAcc.Enabled = False
@@ -228,6 +229,7 @@ Public Class frmPagoOperadores
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
         Me.Close()
+        Me.Refresh()
     End Sub
 
     Private Sub formatos()
@@ -275,6 +277,29 @@ Public Class frmPagoOperadores
         txtXpInfo.Text = txtInfoXp.ToString("C")
         txtXpPen.Text = txtPendXp.ToString("C")
 
+    End Sub
+    Private Sub Imprimir(Optional cveOpe = "")
+        Dim dt As New DataTable
+        Dim cr As New rptTicketPagos
+        Dim R As New Reporte
+        Dim DataSet1 = New DataSet()
+        sql = "Select Top 1 px.Fecha,px.cveOperador,px.Accidentes,px.Vidrios,px.Infracciones, px.Fianza, px.Infonavit,px.Pendientes ,(co.ApMaterno+' '+co.ApPaterno +' '+ co.nomOperador) as NomCompleto
+                from pagosXFueraDtVax as px
+                inner join CatOperadores as co
+                on px.cveOperador=co.cveOperador
+                where px.cveOperador = " & cveOpe _
+              & "order by Fecha desc"
+
+        Dim mda2 = New SqlDataAdapter(sql, conn)
+        mda2.Fill(DataSet1, "pagosXFueraDtVax")
+
+        cr.DataDefinition.FormulaFields("NombreEmpresa").Text = "'Servicios Urbanos y Sub-Urbanos Xinantecatl S.A. de C.V.'"
+        cr.DataDefinition.FormulaFields("RFC").Text = "'SUS 810803 QN0'"
+        cr.SetDataSource(DataSet1)
+        R.CrystalReportViewer1.ReportSource = cr
+        'cr.PrintToPrinter(1, True, 0, 0)
+        'R.MdiParent = Principal
+        R.Show()
     End Sub
 
 End Class

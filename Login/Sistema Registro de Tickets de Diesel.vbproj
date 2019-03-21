@@ -256,6 +256,11 @@
       <DependentUpon>rptDetalleTickets.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="rptTicketPagos.vb">
+      <DependentUpon>rptTicketPagos.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="rptReciboPagos.vb">
       <DependentUpon>rptReciboPagos.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -356,6 +361,10 @@
     <EmbeddedResource Include="rptDetalleTickets.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptDetalleTickets.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTicketPagos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTicketPagos.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="rptReciboPagos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
