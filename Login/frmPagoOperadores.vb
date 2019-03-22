@@ -32,7 +32,7 @@ Public Class frmPagoOperadores
         sql = "SELECT do.cveOperador,(co.ApPaterno + ' ' + co.ApMaterno + ' ' + co.nomOperador +' ' + '('+ " _
               & "convert(varchar(MAX),do.cveOperador) + ')' ) as NombreOperador " _
               & "FROM CatOperadores as co " _
-              & "inner join deudaOperadores as do on co.cveOperador=do.cveOperador " _
+              & "inner join distribucion_Despues as do on co.cveOperador=do.cveOperador " _
               & "ORDER BY ApPaterno, ApMaterno, nomOperador "
 
         da = New SqlDataAdapter(sql, conn)
@@ -84,7 +84,6 @@ Public Class frmPagoOperadores
                 conn.Open()
                 cmd.ExecuteNonQuery()
                 conn.Close()
-                Cursor = System.Windows.Forms.Cursors.WaitCursor
                 MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End Using
         Else
@@ -98,7 +97,9 @@ Public Class frmPagoOperadores
         txtXpInfo.Text = CSng(txtCobInfo.Text) - Val(txtPagInfo.Text)
         txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
         Call formatos_pagos()
+        Cursor = System.Windows.Forms.Cursors.WaitCursor
         Call Imprimir(ClaveOpe)
+        Cursor = System.Windows.Forms.Cursors.Default
 
 
 
@@ -200,7 +201,7 @@ Public Class frmPagoOperadores
         Else
             Dim conn2 As New SqlConnection(connStringSql)
             Dim sql2 As String
-            sql2 = "SELECT Accidentes, Vidrios, Infracciones, Fianza, Infonavit, Pendientes FROM deudaOperadores " _
+            sql2 = "SELECT Accidentes, Vidrios, Infracciones, Fianza, Infonavit, Pendientes FROM distribucion_Despues " _
                & " WHERE cveOperador = " & cveOpe
             Using cmd2 As New SqlCommand(sql2, conn2)
                 conn2.Open()
@@ -301,6 +302,7 @@ Public Class frmPagoOperadores
         R.CrystalReportViewer1.ReportSource = cr
         'cr.PrintToPrinter(1, True, 0, 0)
         'R.MdiParent = Principal
+        R.WindowState = FormWindowState.Maximized
         R.Show()
     End Sub
 
