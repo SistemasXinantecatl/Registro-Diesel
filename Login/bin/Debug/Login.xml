@@ -132,6 +132,11 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:Login.DataSet1.PagosXFueraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:Login.DataSet1.MovDieselRow">
 <summary>
 Represents strongly named DataRow class.
@@ -177,6 +182,11 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member>
+<member name="T:Login.DataSet1.PagosXFueraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
 <member name="T:Login.DataSet1.MovDieselRowChangeEvent">
 <summary>
 Row event argument class
@@ -218,6 +228,11 @@ Row event argument class
 </summary>
 </member>
 <member name="T:Login.DataSet1.TicketsCanceladosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Login.DataSet1.PagosXFueraRowChangeEvent">
 <summary>
 Row event argument class
 </summary>

@@ -1,4 +1,6 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Windows.Forms
+
 Public Class frmPagoOperadores
     Dim conn As New SqlConnection(connStringSql)
     Dim dataReader As SqlDataReader
@@ -280,7 +282,7 @@ Public Class frmPagoOperadores
     End Sub
     Private Sub Imprimir(Optional cveOpe = "")
         Dim dt As New DataTable
-        Dim cr As New rptTicketPagos
+        Dim cr As New TicketPagos
         Dim R As New Reporte
         Dim DataSet1 = New DataSet()
         sql = "Select Top 1 px.Fecha,px.cveOperador,px.Accidentes,px.Vidrios,px.Infracciones, px.Fianza, px.Infonavit,px.Pendientes ,(co.ApMaterno+' '+co.ApPaterno +' '+ co.nomOperador) as NomCompleto
@@ -291,7 +293,7 @@ Public Class frmPagoOperadores
               & "order by Fecha desc"
 
         Dim mda2 = New SqlDataAdapter(sql, conn)
-        mda2.Fill(DataSet1, "pagosXFueraDtVax")
+        mda2.Fill(DataSet1, "pagosXFuera")
 
         cr.DataDefinition.FormulaFields("NombreEmpresa").Text = "'Servicios Urbanos y Sub-Urbanos Xinantecatl S.A. de C.V.'"
         cr.DataDefinition.FormulaFields("RFC").Text = "'SUS 810803 QN0'"

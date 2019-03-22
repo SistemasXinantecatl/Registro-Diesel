@@ -56,7 +56,7 @@
     <OptionExplicit>On</OptionExplicit>
   </PropertyGroup>
   <PropertyGroup>
-    <OptionCompare>Binary</OptionCompare>
+    <OptionCompare>Text</OptionCompare>
   </PropertyGroup>
   <PropertyGroup>
     <OptionStrict>Off</OptionStrict>
@@ -256,17 +256,6 @@
       <DependentUpon>rptDetalleTickets.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="rptTicketPagos.vb">
-      <DependentUpon>rptTicketPagos.rpt</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="rptReciboPagos.vb">
-      <DependentUpon>rptReciboPagos.rpt</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <SubType>Component</SubType>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <Compile Include="rptRecaudaciones.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -283,6 +272,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>rptTicketsCancelados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TicketPagos.vb">
+      <DependentUpon>TicketPagos.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Ticket.vb">
@@ -362,14 +357,6 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptDetalleTickets.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="rptTicketPagos.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptTicketPagos.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="rptReciboPagos.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptReciboPagos.vb</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="rptRecaudaciones.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptRecaudaciones.vb</LastGenOutput>
@@ -381,6 +368,10 @@
     <EmbeddedResource Include="rptTicketsCancelados.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptTicketsCancelados.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketPagos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TicketPagos.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Ticket.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

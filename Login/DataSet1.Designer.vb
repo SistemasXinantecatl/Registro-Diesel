@@ -43,7 +43,7 @@ Partial Public Class DataSet1
     
     Private tableTicketsCancelados As TicketsCanceladosDataTable
     
-    Private tablepagosXFueraDtvax As pagosXFueraDtvaxDataTable
+    Private tablePagosXFuera As PagosXFueraDataTable
     
     Private _schemaSerializationMode As Global.System.Data.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
     
@@ -101,8 +101,8 @@ Partial Public Class DataSet1
             If (Not (ds.Tables("TicketsCancelados")) Is Nothing) Then
                 MyBase.Tables.Add(New TicketsCanceladosDataTable(ds.Tables("TicketsCancelados")))
             End If
-            If (Not (ds.Tables("pagosXFueraDtvax")) Is Nothing) Then
-                MyBase.Tables.Add(New pagosXFueraDtvaxDataTable(ds.Tables("pagosXFueraDtvax")))
+            If (Not (ds.Tables("PagosXFuera")) Is Nothing) Then
+                MyBase.Tables.Add(New PagosXFueraDataTable(ds.Tables("PagosXFuera")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -215,9 +215,9 @@ Partial Public Class DataSet1
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
      Global.System.ComponentModel.Browsable(false),  _
      Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
-    Public ReadOnly Property pagosXFueraDtvax() As pagosXFueraDtvaxDataTable
+    Public ReadOnly Property PagosXFuera() As PagosXFueraDataTable
         Get
-            Return Me.tablepagosXFueraDtvax
+            Return Me.tablePagosXFuera
         End Get
     End Property
     
@@ -315,8 +315,8 @@ Partial Public Class DataSet1
             If (Not (ds.Tables("TicketsCancelados")) Is Nothing) Then
                 MyBase.Tables.Add(New TicketsCanceladosDataTable(ds.Tables("TicketsCancelados")))
             End If
-            If (Not (ds.Tables("pagosXFueraDtvax")) Is Nothing) Then
-                MyBase.Tables.Add(New pagosXFueraDtvaxDataTable(ds.Tables("pagosXFueraDtvax")))
+            If (Not (ds.Tables("PagosXFuera")) Is Nothing) Then
+                MyBase.Tables.Add(New PagosXFueraDataTable(ds.Tables("PagosXFuera")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -404,10 +404,10 @@ Partial Public Class DataSet1
                 Me.tableTicketsCancelados.InitVars
             End If
         End If
-        Me.tablepagosXFueraDtvax = CType(MyBase.Tables("pagosXFueraDtvax"),pagosXFueraDtvaxDataTable)
+        Me.tablePagosXFuera = CType(MyBase.Tables("PagosXFuera"),PagosXFueraDataTable)
         If (initTable = true) Then
-            If (Not (Me.tablepagosXFueraDtvax) Is Nothing) Then
-                Me.tablepagosXFueraDtvax.InitVars
+            If (Not (Me.tablePagosXFuera) Is Nothing) Then
+                Me.tablePagosXFuera.InitVars
             End If
         End If
     End Sub
@@ -418,7 +418,7 @@ Partial Public Class DataSet1
         Me.DataSetName = "DataSet1"
         Me.Prefix = ""
         Me.Namespace = "http://tempuri.org/DataSet1.xsd"
-        Me.EnforceConstraints = true
+        Me.EnforceConstraints = false
         Me.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
         Me.tableMovDiesel = New MovDieselDataTable()
         MyBase.Tables.Add(Me.tableMovDiesel)
@@ -438,8 +438,8 @@ Partial Public Class DataSet1
         MyBase.Tables.Add(Me.tableDetalleTickets)
         Me.tableTicketsCancelados = New TicketsCanceladosDataTable()
         MyBase.Tables.Add(Me.tableTicketsCancelados)
-        Me.tablepagosXFueraDtvax = New pagosXFueraDtvaxDataTable()
-        MyBase.Tables.Add(Me.tablepagosXFueraDtvax)
+        Me.tablePagosXFuera = New PagosXFueraDataTable()
+        MyBase.Tables.Add(Me.tablePagosXFuera)
     End Sub
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -498,7 +498,7 @@ Partial Public Class DataSet1
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-    Private Function ShouldSerializepagosXFueraDtvax() As Boolean
+    Private Function ShouldSerializePagosXFuera() As Boolean
         Return false
     End Function
     
@@ -588,7 +588,7 @@ Partial Public Class DataSet1
     Public Delegate Sub TicketsCanceladosRowChangeEventHandler(ByVal sender As Object, ByVal e As TicketsCanceladosRowChangeEvent)
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-    Public Delegate Sub pagosXFueraDtvaxRowChangeEventHandler(ByVal sender As Object, ByVal e As pagosXFueraDtvaxRowChangeEvent)
+    Public Delegate Sub PagosXFueraRowChangeEventHandler(ByVal sender As Object, ByVal e As PagosXFueraRowChangeEvent)
     
     '''<summary>
     '''Represents the strongly named DataTable class.
@@ -3552,8 +3552,8 @@ Partial Public Class DataSet1
     '''</summary>
     <Global.System.Serializable(),  _
      Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
-    Partial Public Class pagosXFueraDtvaxDataTable
-        Inherits Global.System.Data.TypedTableBase(Of pagosXFueraDtvaxRow)
+    Partial Public Class PagosXFueraDataTable
+        Inherits Global.System.Data.TypedTableBase(Of PagosXFueraRow)
         
         Private columnFecha As Global.System.Data.DataColumn
         
@@ -3577,7 +3577,7 @@ Partial Public Class DataSet1
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub New()
             MyBase.New
-            Me.TableName = "pagosXFueraDtvax"
+            Me.TableName = "PagosXFuera"
             Me.BeginInit
             Me.InitClass
             Me.EndInit
@@ -3691,44 +3691,44 @@ Partial Public Class DataSet1
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Default ReadOnly Property Item(ByVal index As Integer) As pagosXFueraDtvaxRow
+        Public Default ReadOnly Property Item(ByVal index As Integer) As PagosXFueraRow
             Get
-                Return CType(Me.Rows(index),pagosXFueraDtvaxRow)
+                Return CType(Me.Rows(index),PagosXFueraRow)
             End Get
         End Property
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Event pagosXFueraDtvaxRowChanging As pagosXFueraDtvaxRowChangeEventHandler
+        Public Event PagosXFueraRowChanging As PagosXFueraRowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Event pagosXFueraDtvaxRowChanged As pagosXFueraDtvaxRowChangeEventHandler
+        Public Event PagosXFueraRowChanged As PagosXFueraRowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Event pagosXFueraDtvaxRowDeleting As pagosXFueraDtvaxRowChangeEventHandler
+        Public Event PagosXFueraRowDeleting As PagosXFueraRowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Event pagosXFueraDtvaxRowDeleted As pagosXFueraDtvaxRowChangeEventHandler
+        Public Event PagosXFueraRowDeleted As PagosXFueraRowChangeEventHandler
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Overloads Sub AddpagosXFueraDtvaxRow(ByVal row As pagosXFueraDtvaxRow)
+        Public Overloads Sub AddPagosXFueraRow(ByVal row As PagosXFueraRow)
             Me.Rows.Add(row)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Overloads Function AddpagosXFueraDtvaxRow(ByVal Fecha As String, ByVal cveOperador As String, ByVal Accidentes As String, ByVal Vidrios As String, ByVal Infracciones As String, ByVal Fianza As String, ByVal Infonavit As String, ByVal Pendientes As String, ByVal NomCompleto As String) As pagosXFueraDtvaxRow
-            Dim rowpagosXFueraDtvaxRow As pagosXFueraDtvaxRow = CType(Me.NewRow,pagosXFueraDtvaxRow)
+        Public Overloads Function AddPagosXFueraRow(ByVal Fecha As Date, ByVal cveOperador As Short, ByVal Accidentes As Double, ByVal Vidrios As Double, ByVal Infracciones As Double, ByVal Fianza As Double, ByVal Infonavit As Double, ByVal Pendientes As Double, ByVal NomCompleto As String) As PagosXFueraRow
+            Dim rowPagosXFueraRow As PagosXFueraRow = CType(Me.NewRow,PagosXFueraRow)
             Dim columnValuesArray() As Object = New Object() {Fecha, cveOperador, Accidentes, Vidrios, Infracciones, Fianza, Infonavit, Pendientes, NomCompleto}
-            rowpagosXFueraDtvaxRow.ItemArray = columnValuesArray
-            Me.Rows.Add(rowpagosXFueraDtvaxRow)
-            Return rowpagosXFueraDtvaxRow
+            rowPagosXFueraRow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowPagosXFueraRow)
+            Return rowPagosXFueraRow
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Overrides Function Clone() As Global.System.Data.DataTable
-            Dim cln As pagosXFueraDtvaxDataTable = CType(MyBase.Clone,pagosXFueraDtvaxDataTable)
+            Dim cln As PagosXFueraDataTable = CType(MyBase.Clone,PagosXFueraDataTable)
             cln.InitVars
             Return cln
         End Function
@@ -3736,7 +3736,7 @@ Partial Public Class DataSet1
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
-            Return New pagosXFueraDtvaxDataTable()
+            Return New PagosXFueraDataTable()
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -3756,21 +3756,21 @@ Partial Public Class DataSet1
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Private Sub InitClass()
-            Me.columnFecha = New Global.System.Data.DataColumn("Fecha", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnFecha = New Global.System.Data.DataColumn("Fecha", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnFecha)
-            Me.columncveOperador = New Global.System.Data.DataColumn("cveOperador", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columncveOperador = New Global.System.Data.DataColumn("cveOperador", GetType(Short), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columncveOperador)
-            Me.columnAccidentes = New Global.System.Data.DataColumn("Accidentes", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnAccidentes = New Global.System.Data.DataColumn("Accidentes", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnAccidentes)
-            Me.columnVidrios = New Global.System.Data.DataColumn("Vidrios", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnVidrios = New Global.System.Data.DataColumn("Vidrios", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnVidrios)
-            Me.columnInfracciones = New Global.System.Data.DataColumn("Infracciones", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnInfracciones = New Global.System.Data.DataColumn("Infracciones", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnInfracciones)
-            Me.columnFianza = New Global.System.Data.DataColumn("Fianza", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnFianza = New Global.System.Data.DataColumn("Fianza", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnFianza)
-            Me.columnInfonavit = New Global.System.Data.DataColumn("Infonavit", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnInfonavit = New Global.System.Data.DataColumn("Infonavit", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnInfonavit)
-            Me.columnPendientes = New Global.System.Data.DataColumn("Pendientes", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnPendientes = New Global.System.Data.DataColumn("Pendientes", GetType(Double), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPendientes)
             Me.columnNomCompleto = New Global.System.Data.DataColumn("NomCompleto", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnNomCompleto)
@@ -3778,28 +3778,28 @@ Partial Public Class DataSet1
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function NewpagosXFueraDtvaxRow() As pagosXFueraDtvaxRow
-            Return CType(Me.NewRow,pagosXFueraDtvaxRow)
+        Public Function NewPagosXFueraRow() As PagosXFueraRow
+            Return CType(Me.NewRow,PagosXFueraRow)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
-            Return New pagosXFueraDtvaxRow(builder)
+            Return New PagosXFueraRow(builder)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Function GetRowType() As Global.System.Type
-            Return GetType(pagosXFueraDtvaxRow)
+            Return GetType(PagosXFueraRow)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanged(e)
-            If (Not (Me.pagosXFueraDtvaxRowChangedEvent) Is Nothing) Then
-                RaiseEvent pagosXFueraDtvaxRowChanged(Me, New pagosXFueraDtvaxRowChangeEvent(CType(e.Row,pagosXFueraDtvaxRow), e.Action))
+            If (Not (Me.PagosXFueraRowChangedEvent) Is Nothing) Then
+                RaiseEvent PagosXFueraRowChanged(Me, New PagosXFueraRowChangeEvent(CType(e.Row,PagosXFueraRow), e.Action))
             End If
         End Sub
         
@@ -3807,8 +3807,8 @@ Partial Public Class DataSet1
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanging(e)
-            If (Not (Me.pagosXFueraDtvaxRowChangingEvent) Is Nothing) Then
-                RaiseEvent pagosXFueraDtvaxRowChanging(Me, New pagosXFueraDtvaxRowChangeEvent(CType(e.Row,pagosXFueraDtvaxRow), e.Action))
+            If (Not (Me.PagosXFueraRowChangingEvent) Is Nothing) Then
+                RaiseEvent PagosXFueraRowChanging(Me, New PagosXFueraRowChangeEvent(CType(e.Row,PagosXFueraRow), e.Action))
             End If
         End Sub
         
@@ -3816,8 +3816,8 @@ Partial Public Class DataSet1
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleted(e)
-            If (Not (Me.pagosXFueraDtvaxRowDeletedEvent) Is Nothing) Then
-                RaiseEvent pagosXFueraDtvaxRowDeleted(Me, New pagosXFueraDtvaxRowChangeEvent(CType(e.Row,pagosXFueraDtvaxRow), e.Action))
+            If (Not (Me.PagosXFueraRowDeletedEvent) Is Nothing) Then
+                RaiseEvent PagosXFueraRowDeleted(Me, New PagosXFueraRowChangeEvent(CType(e.Row,PagosXFueraRow), e.Action))
             End If
         End Sub
         
@@ -3825,14 +3825,14 @@ Partial Public Class DataSet1
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleting(e)
-            If (Not (Me.pagosXFueraDtvaxRowDeletingEvent) Is Nothing) Then
-                RaiseEvent pagosXFueraDtvaxRowDeleting(Me, New pagosXFueraDtvaxRowChangeEvent(CType(e.Row,pagosXFueraDtvaxRow), e.Action))
+            If (Not (Me.PagosXFueraRowDeletingEvent) Is Nothing) Then
+                RaiseEvent PagosXFueraRowDeleting(Me, New PagosXFueraRowChangeEvent(CType(e.Row,PagosXFueraRow), e.Action))
             End If
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub RemovepagosXFueraDtvaxRow(ByVal row As pagosXFueraDtvaxRow)
+        Public Sub RemovePagosXFueraRow(ByVal row As PagosXFueraRow)
             Me.Rows.Remove(row)
         End Sub
         
@@ -3859,7 +3859,7 @@ Partial Public Class DataSet1
             type.Attributes.Add(attribute1)
             Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
             attribute2.Name = "tableTypeName"
-            attribute2.FixedValue = "pagosXFueraDtvaxDataTable"
+            attribute2.FixedValue = "PagosXFueraDataTable"
             type.Attributes.Add(attribute2)
             type.Particle = sequence
             Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
@@ -5730,135 +5730,135 @@ Partial Public Class DataSet1
     '''<summary>
     '''Represents strongly named DataRow class.
     '''</summary>
-    Partial Public Class pagosXFueraDtvaxRow
+    Partial Public Class PagosXFueraRow
         Inherits Global.System.Data.DataRow
         
-        Private tablepagosXFueraDtvax As pagosXFueraDtvaxDataTable
+        Private tablePagosXFuera As PagosXFueraDataTable
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
             MyBase.New(rb)
-            Me.tablepagosXFueraDtvax = CType(Me.Table,pagosXFueraDtvaxDataTable)
+            Me.tablePagosXFuera = CType(Me.Table,PagosXFueraDataTable)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Fecha() As String
+        Public Property Fecha() As Date
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.FechaColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.FechaColumn),Date)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Fecha' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Fecha' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.FechaColumn) = value
+                Me(Me.tablePagosXFuera.FechaColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property cveOperador() As String
+        Public Property cveOperador() As Short
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.cveOperadorColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.cveOperadorColumn),Short)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'cveOperador' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'cveOperador' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.cveOperadorColumn) = value
+                Me(Me.tablePagosXFuera.cveOperadorColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Accidentes() As String
+        Public Property Accidentes() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.AccidentesColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.AccidentesColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Accidentes' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Accidentes' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.AccidentesColumn) = value
+                Me(Me.tablePagosXFuera.AccidentesColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Vidrios() As String
+        Public Property Vidrios() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.VidriosColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.VidriosColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Vidrios' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Vidrios' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.VidriosColumn) = value
+                Me(Me.tablePagosXFuera.VidriosColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Infracciones() As String
+        Public Property Infracciones() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.InfraccionesColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.InfraccionesColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Infracciones' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Infracciones' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.InfraccionesColumn) = value
+                Me(Me.tablePagosXFuera.InfraccionesColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Fianza() As String
+        Public Property Fianza() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.FianzaColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.FianzaColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Fianza' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Fianza' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.FianzaColumn) = value
+                Me(Me.tablePagosXFuera.FianzaColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Infonavit() As String
+        Public Property Infonavit() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.InfonavitColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.InfonavitColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Infonavit' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Infonavit' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.InfonavitColumn) = value
+                Me(Me.tablePagosXFuera.InfonavitColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Pendientes() As String
+        Public Property Pendientes() As Double
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.PendientesColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.PendientesColumn),Double)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Pendientes' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'Pendientes' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.PendientesColumn) = value
+                Me(Me.tablePagosXFuera.PendientesColumn) = value
             End Set
         End Property
         
@@ -5867,122 +5867,122 @@ Partial Public Class DataSet1
         Public Property NomCompleto() As String
             Get
                 Try 
-                    Return CType(Me(Me.tablepagosXFueraDtvax.NomCompletoColumn),String)
+                    Return CType(Me(Me.tablePagosXFuera.NomCompletoColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'NomCompleto' de la tabla 'pagosXFueraDtvax' es DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("El valor de la columna 'NomCompleto' de la tabla 'PagosXFuera' es DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tablepagosXFueraDtvax.NomCompletoColumn) = value
+                Me(Me.tablePagosXFuera.NomCompletoColumn) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsFechaNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.FechaColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.FechaColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetFechaNull()
-            Me(Me.tablepagosXFueraDtvax.FechaColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.FechaColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IscveOperadorNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.cveOperadorColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.cveOperadorColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetcveOperadorNull()
-            Me(Me.tablepagosXFueraDtvax.cveOperadorColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.cveOperadorColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsAccidentesNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.AccidentesColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.AccidentesColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetAccidentesNull()
-            Me(Me.tablepagosXFueraDtvax.AccidentesColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.AccidentesColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsVidriosNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.VidriosColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.VidriosColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetVidriosNull()
-            Me(Me.tablepagosXFueraDtvax.VidriosColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.VidriosColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsInfraccionesNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.InfraccionesColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.InfraccionesColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetInfraccionesNull()
-            Me(Me.tablepagosXFueraDtvax.InfraccionesColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.InfraccionesColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsFianzaNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.FianzaColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.FianzaColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetFianzaNull()
-            Me(Me.tablepagosXFueraDtvax.FianzaColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.FianzaColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsInfonavitNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.InfonavitColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.InfonavitColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetInfonavitNull()
-            Me(Me.tablepagosXFueraDtvax.InfonavitColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.InfonavitColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsPendientesNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.PendientesColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.PendientesColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetPendientesNull()
-            Me(Me.tablepagosXFueraDtvax.PendientesColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.PendientesColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Function IsNomCompletoNull() As Boolean
-            Return Me.IsNull(Me.tablepagosXFueraDtvax.NomCompletoColumn)
+            Return Me.IsNull(Me.tablePagosXFuera.NomCompletoColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetNomCompletoNull()
-            Me(Me.tablepagosXFueraDtvax.NomCompletoColumn) = Global.System.Convert.DBNull
+            Me(Me.tablePagosXFuera.NomCompletoColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -6314,16 +6314,16 @@ Partial Public Class DataSet1
     '''Row event argument class
     '''</summary>
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-    Public Class pagosXFueraDtvaxRowChangeEvent
+    Public Class PagosXFueraRowChangeEvent
         Inherits Global.System.EventArgs
         
-        Private eventRow As pagosXFueraDtvaxRow
+        Private eventRow As PagosXFueraRow
         
         Private eventAction As Global.System.Data.DataRowAction
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub New(ByVal row As pagosXFueraDtvaxRow, ByVal action As Global.System.Data.DataRowAction)
+        Public Sub New(ByVal row As PagosXFueraRow, ByVal action As Global.System.Data.DataRowAction)
             MyBase.New
             Me.eventRow = row
             Me.eventAction = action
@@ -6331,7 +6331,7 @@ Partial Public Class DataSet1
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property Row() As pagosXFueraDtvaxRow
+        Public ReadOnly Property Row() As PagosXFueraRow
             Get
                 Return Me.eventRow
             End Get
