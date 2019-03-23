@@ -8,6 +8,7 @@ Public Class Principal
     Dim cmd As New SqlCommand()
     Dim sql As String
     Private Sub Principal_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Call ObtenerOficina()
         MyBase.Text = "SISTEMA REGISTRO DE TICKETS DIESEL  " + "USUARIO : [" + UsuarioLogin + "] " + "  OFICINA : [" + Oficina + "]"
         If Su = True Then

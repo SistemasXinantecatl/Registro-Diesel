@@ -100,11 +100,6 @@ Public Class frmPagoOperadores
         txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
         Call formatos_pagos()
         Cursor = System.Windows.Forms.Cursors.Default
-
-
-
-
-
     End Sub
 
     Private Sub cmbOper_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles cmbOper.SelectionChangeCommitted

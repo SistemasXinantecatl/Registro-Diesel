@@ -201,7 +201,8 @@ Partial Class Principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Login.My.Resources.Resources.IMG_2798
+        Me.AutoSize = True
+        Me.BackgroundImage = Global.Login.My.Resources.Resources.toreto
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1134, 593)
         Me.Controls.Add(Me.MenuStrip1)
