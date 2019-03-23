@@ -14,13 +14,6 @@ Public Class frmPagoOperadores
     Dim selectedItem As Object
     Dim mayores As String
     Dim FechaDia As Date
-
-
-
-
-
-
-
     Public Sub Llena_Combos(ByVal usuario As ComboBox)
         ' Llenar combos de Datos
         Dim da As SqlDataAdapter
@@ -73,6 +66,12 @@ Public Class frmPagoOperadores
             mayores = mayores + vbLf + "El Pago de Pendientes es Mayor a la Deuda"
             i = i + 1
         End If
+        If (CInt(txtPagAcc.Text) = 0 And CInt(txtPagVid.Text) = 0 And CInt(txtPagInf.Text) = 0 And CInt(txtPagFian.Text) = 0 And CInt(txtPagInfo.Text) = 0 _
+            And CInt(txtPagPend.Text) = 0) Then
+            i = i + 1
+            MessageBox.Show("Error en el Pago: " + vbLf + " Verificar Los Pagos No Pueden Ser Todos 0 ¡CANCELAR O VERIFICAR!", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        End If
+
         If (i = 0) Then
             strSQL = "INSERT INTO pagosXFueraDtVax (Fecha,cveOperador,Accidentes,Vidrios,Infracciones,Fianza,Infonavit, " _
                 & "Pendientes) " _
@@ -85,6 +84,9 @@ Public Class frmPagoOperadores
                 cmd.ExecuteNonQuery()
                 conn.Close()
                 MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Cursor = System.Windows.Forms.Cursors.WaitCursor
+                Call Imprimir(ClaveOpe)
+
             End Using
         Else
             MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
@@ -97,9 +99,9 @@ Public Class frmPagoOperadores
         txtXpInfo.Text = CSng(txtCobInfo.Text) - Val(txtPagInfo.Text)
         txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
         Call formatos_pagos()
-        Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Call Imprimir(ClaveOpe)
         Cursor = System.Windows.Forms.Cursors.Default
+
+
 
 
 
