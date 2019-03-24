@@ -69,37 +69,43 @@ Public Class frmPagoOperadores
         If (CInt(txtPagAcc.Text) = 0 And CInt(txtPagVid.Text) = 0 And CInt(txtPagInf.Text) = 0 And CInt(txtPagFian.Text) = 0 And CInt(txtPagInfo.Text) = 0 _
             And CInt(txtPagPend.Text) = 0) Then
             i = i + 1
-            MessageBox.Show("Error en el Pago: " + vbLf + " Verificar Los Pagos No Pueden Ser Todos 0 ¡CANCELAR O VERIFICAR!", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-        End If
+            MessageBox.Show("Error en el Pago: " + vbLf + " Verificar Los Pagos No Pueden Ser Todos 0" + vbLf + "¡CANCELAR O VERIFICAR!", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
 
-        If (i = 0) Then
-            strSQL = "INSERT INTO pagosXFueraDtVax (Fecha,cveOperador,Accidentes,Vidrios,Infracciones,Fianza,Infonavit, " _
-                & "Pendientes) " _
-                & "VALUES('" & FechaDia.ToString("MM/dd/yyyy") & "'," & ClaveOpe & "," & IIf(String.IsNullOrEmpty(txtPagAcc.Text), 0, Val(txtPagAcc.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagVid.Text), 0, Val(txtPagVid.Text)) _
-                & "," & IIf(String.IsNullOrEmpty(txtPagInf.Text), 0, Val(txtPagInf.Text)) _
-                & "," & IIf(String.IsNullOrEmpty(txtPagFian.Text), 0, Val(txtPagFian.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagInfo.Text), 0, Val(txtPagInfo.Text)) & "," _
-                & IIf(String.IsNullOrEmpty(txtPagPend.Text), 0, Val(txtPagPend.Text)) & ")"
-            Using cmd As New SqlCommand(strSQL, conn)
-                conn.Open()
-                cmd.ExecuteNonQuery()
-                conn.Close()
-                MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Cursor = System.Windows.Forms.Cursors.WaitCursor
-                Call Imprimir(ClaveOpe)
+        ElseIf (MessageBox.Show("¿Estas seguro que quiere" + vbLf + "Continuar?",
+                                    "¿Datos Correctos?",
+                                    MessageBoxButtons.YesNo,
+                                    MessageBoxIcon.Question) = DialogResult.Yes) Then
+            If (i = 0) Then
+                    strSQL = "INSERT INTO pagosXFueraDtVax (Fecha,cveOperador,Accidentes,Vidrios,Infracciones,Fianza,Infonavit, " _
+                        & "Pendientes) " _
+                        & "VALUES('" & FechaDia.ToString("MM/dd/yyyy") & "'," & ClaveOpe & "," & IIf(String.IsNullOrEmpty(txtPagAcc.Text), 0, Val(txtPagAcc.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagVid.Text), 0, Val(txtPagVid.Text)) _
+                        & "," & IIf(String.IsNullOrEmpty(txtPagInf.Text), 0, Val(txtPagInf.Text)) _
+                        & "," & IIf(String.IsNullOrEmpty(txtPagFian.Text), 0, Val(txtPagFian.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagInfo.Text), 0, Val(txtPagInfo.Text)) & "," _
+                        & IIf(String.IsNullOrEmpty(txtPagPend.Text), 0, Val(txtPagPend.Text)) & ")"
+                    Using cmd As New SqlCommand(strSQL, conn)
+                        conn.Open()
+                        cmd.ExecuteNonQuery()
+                        conn.Close()
+                        MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        Cursor = System.Windows.Forms.Cursors.WaitCursor
+                        Call Imprimir(ClaveOpe)
 
-            End Using
-        Else
-            MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-        End If
+                    End Using
+                Else
+                    MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                End If
 
-        txtXpAcc.Text = CSng(txtCobAcc.Text) - Val(txtPagAcc.Text)
-        txtXpVid.Text = CSng(txtCobVid.Text) - Val(txtPagVid.Text)
-        txtXpInf.Text = CSng(txtCobInf.Text) - Val(txtPagInf.Text)
-        txtXpFia.Text = CSng(txtCobFian.Text) - Val(txtPagFian.Text)
-        txtXpInfo.Text = CSng(txtCobInfo.Text) - Val(txtPagInfo.Text)
-        txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
-        Call formatos_pagos()
-        Cursor = System.Windows.Forms.Cursors.Default
+                txtXpAcc.Text = CSng(txtCobAcc.Text) - Val(txtPagAcc.Text)
+                txtXpVid.Text = CSng(txtCobVid.Text) - Val(txtPagVid.Text)
+                txtXpInf.Text = CSng(txtCobInf.Text) - Val(txtPagInf.Text)
+                txtXpFia.Text = CSng(txtCobFian.Text) - Val(txtPagFian.Text)
+                txtXpInfo.Text = CSng(txtCobInfo.Text) - Val(txtPagInfo.Text)
+                txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
+                Call formatos_pagos()
+                Cursor = System.Windows.Forms.Cursors.Default
+            End If
+
+
     End Sub
 
     Private Sub cmbOper_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles cmbOper.SelectionChangeCommitted
