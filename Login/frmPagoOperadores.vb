@@ -1,6 +1,5 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Windows.Forms
-
 Public Class frmPagoOperadores
     Dim conn As New SqlConnection(connStringSql)
     Dim dataReader As SqlDataReader
@@ -39,7 +38,6 @@ Public Class frmPagoOperadores
     End Sub
 
     Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
-        Me.Refresh()
         Dim strSQL As String = ""
         Dim i As Integer
         If (CSng(txtCobAcc.Text) < Val(txtPagAcc.Text)) Then
@@ -76,25 +74,20 @@ Public Class frmPagoOperadores
                                     MessageBoxButtons.YesNo,
                                     MessageBoxIcon.Question) = DialogResult.Yes) Then
             If (i = 0) Then
-                    strSQL = "INSERT INTO pagosXFueraDtVax (Fecha,cveOperador,Accidentes,Vidrios,Infracciones,Fianza,Infonavit, " _
+                strSQL = "INSERT INTO pagosXFueraDtVax (Fecha,cveOperador,Accidentes,Vidrios,Infracciones,Fianza,Infonavit, " _
                         & "Pendientes) " _
                         & "VALUES('" & FechaDia.ToString("MM/dd/yyyy") & "'," & ClaveOpe & "," & IIf(String.IsNullOrEmpty(txtPagAcc.Text), 0, Val(txtPagAcc.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagVid.Text), 0, Val(txtPagVid.Text)) _
                         & "," & IIf(String.IsNullOrEmpty(txtPagInf.Text), 0, Val(txtPagInf.Text)) _
                         & "," & IIf(String.IsNullOrEmpty(txtPagFian.Text), 0, Val(txtPagFian.Text)) & "," & IIf(String.IsNullOrEmpty(txtPagInfo.Text), 0, Val(txtPagInfo.Text)) & "," _
                         & IIf(String.IsNullOrEmpty(txtPagPend.Text), 0, Val(txtPagPend.Text)) & ")"
-                    Using cmd As New SqlCommand(strSQL, conn)
-                        conn.Open()
-                        cmd.ExecuteNonQuery()
-                        conn.Close()
-                        MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                        Cursor = System.Windows.Forms.Cursors.WaitCursor
-                        Call Imprimir(ClaveOpe)
-
-                    End Using
-                Else
-                    MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-                End If
-
+                Using cmd As New SqlCommand(strSQL, conn)
+                    conn.Open()
+                    cmd.ExecuteNonQuery()
+                    conn.Close()
+                    MessageBox.Show("Pago Realizado con Exito", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    Cursor = System.Windows.Forms.Cursors.WaitCursor
+                    Call Imprimir(ClaveOpe)
+                End Using
                 txtXpAcc.Text = CSng(txtCobAcc.Text) - Val(txtPagAcc.Text)
                 txtXpVid.Text = CSng(txtCobVid.Text) - Val(txtPagVid.Text)
                 txtXpInf.Text = CSng(txtCobInf.Text) - Val(txtPagInf.Text)
@@ -103,9 +96,23 @@ Public Class frmPagoOperadores
                 txtXpPen.Text = CSng(txtCobPend.Text) - Val(txtPagPend.Text)
                 Call formatos_pagos()
                 Cursor = System.Windows.Forms.Cursors.Default
+            Else
+                MessageBox.Show("Error en el Pago: " + mayores + vbLf + " Verificar que los Pagos sean Menores a la Deuda", "Saldos de Operadores", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                txtPagAcc.Text = 0
+                txtPagVid.Text = 0
+                txtPagInf.Text = 0
+                txtPagFian.Text = 0
+                txtPagInfo.Text = 0
+                txtPagPend.Text = 0
+
+                txtXpAcc.Text = 0
+                txtXpVid.Text = 0
+                txtXpInf.Text = 0
+                txtXpFia.Text = 0
+                txtXpInfo.Text = 0
+                txtXpPen.Text = 0
             End If
-
-
+        End If
     End Sub
 
     Private Sub cmbOper_SelectionChangeCommitted(sender As Object, e As EventArgs) Handles cmbOper.SelectionChangeCommitted
@@ -235,7 +242,6 @@ Public Class frmPagoOperadores
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
         Me.Close()
-        Me.Refresh()
     End Sub
 
     Private Sub formatos()

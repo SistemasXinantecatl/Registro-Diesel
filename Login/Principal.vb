@@ -227,7 +227,7 @@ Public Class Principal
     End Sub
 
     Private Sub SaldosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaldosToolStripMenuItem.Click
-        frmPagoOperadores.ShowDialog()
+        frmPagoOperadores.Show()
     End Sub
 
     Private Sub CortePorDiaPagosDiversosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CortePorDiaPagosDiversosToolStripMenuItem.Click
