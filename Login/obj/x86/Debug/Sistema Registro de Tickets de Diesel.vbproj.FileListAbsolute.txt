@@ -489,7 +489,6 @@ C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Log
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmDetRegTicket.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmGeneraExcel.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmPagoOperadores.resources
-C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmRecaudacion.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmRegTicket.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmReporte.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmSuperUsuario.resources
@@ -498,3 +497,4 @@ C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Log
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.Principal.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.Reporte.resources
 C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Sistema Registro de Tickets de Diesel.vbproj.GenerateResource.Cache
+C:\Users\Jorge Garcia\Documents\Trabajo\Sistemas Xinantecatl\Registro Diesel\Login\obj\x86\Debug\Login.frmCorteXDia.resources

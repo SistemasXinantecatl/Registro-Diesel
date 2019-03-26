@@ -41,17 +41,15 @@ Partial Class Principal
         Me.CatalogoDestinosRojosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CatalogoDestinosAzulesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CatalogoDeAutobusesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TotalRecaudacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AgregarRecaudacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ImprimirReporteRecaudacionTotalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PagosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaldosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CortePorDiaPagosDiversosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CatalogosToolStripMenuItem, Me.GeneraciónTicket, Me.CierreDeDíaToolStripMenuItem, Me.ConsultasRportesToolStripMenuItem, Me.TotalRecaudacionToolStripMenuItem, Me.PagosToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CatalogosToolStripMenuItem, Me.GeneraciónTicket, Me.CierreDeDíaToolStripMenuItem, Me.ConsultasRportesToolStripMenuItem, Me.PagosToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1134, 24)
@@ -165,28 +163,9 @@ Partial Class Principal
         Me.CatalogoDeAutobusesToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
         Me.CatalogoDeAutobusesToolStripMenuItem.Text = "Catalogo de Autobuses"
         '
-        'TotalRecaudacionToolStripMenuItem
-        '
-        Me.TotalRecaudacionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarRecaudacionToolStripMenuItem, Me.ImprimirReporteRecaudacionTotalToolStripMenuItem})
-        Me.TotalRecaudacionToolStripMenuItem.Name = "TotalRecaudacionToolStripMenuItem"
-        Me.TotalRecaudacionToolStripMenuItem.Size = New System.Drawing.Size(116, 20)
-        Me.TotalRecaudacionToolStripMenuItem.Text = "Total Recaudacion"
-        '
-        'AgregarRecaudacionToolStripMenuItem
-        '
-        Me.AgregarRecaudacionToolStripMenuItem.Name = "AgregarRecaudacionToolStripMenuItem"
-        Me.AgregarRecaudacionToolStripMenuItem.Size = New System.Drawing.Size(264, 22)
-        Me.AgregarRecaudacionToolStripMenuItem.Text = "Agregar Recaudacion"
-        '
-        'ImprimirReporteRecaudacionTotalToolStripMenuItem
-        '
-        Me.ImprimirReporteRecaudacionTotalToolStripMenuItem.Name = "ImprimirReporteRecaudacionTotalToolStripMenuItem"
-        Me.ImprimirReporteRecaudacionTotalToolStripMenuItem.Size = New System.Drawing.Size(264, 22)
-        Me.ImprimirReporteRecaudacionTotalToolStripMenuItem.Text = "Imprimir Reporte Recaudacion Total"
-        '
         'PagosToolStripMenuItem
         '
-        Me.PagosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaldosToolStripMenuItem})
+        Me.PagosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaldosToolStripMenuItem, Me.CortePorDiaPagosDiversosToolStripMenuItem})
         Me.PagosToolStripMenuItem.Name = "PagosToolStripMenuItem"
         Me.PagosToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.PagosToolStripMenuItem.Text = "Pagos "
@@ -194,8 +173,14 @@ Partial Class Principal
         'SaldosToolStripMenuItem
         '
         Me.SaldosToolStripMenuItem.Name = "SaldosToolStripMenuItem"
-        Me.SaldosToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.SaldosToolStripMenuItem.Size = New System.Drawing.Size(226, 22)
         Me.SaldosToolStripMenuItem.Text = "Saldos "
+        '
+        'CortePorDiaPagosDiversosToolStripMenuItem
+        '
+        Me.CortePorDiaPagosDiversosToolStripMenuItem.Name = "CortePorDiaPagosDiversosToolStripMenuItem"
+        Me.CortePorDiaPagosDiversosToolStripMenuItem.Size = New System.Drawing.Size(226, 22)
+        Me.CortePorDiaPagosDiversosToolStripMenuItem.Text = "Corte Por Dia Pagos Diversos"
         '
         'Principal
         '
@@ -232,13 +217,11 @@ Partial Class Principal
     Friend WithEvents CatalogoDestinosRojosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CatalogoDestinosAzulesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CatalogoDeAutobusesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TotalRecaudacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AgregarRecaudacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ImprimirReporteRecaudacionTotalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ReporteResumenTicketsXFechaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DetalleTicketsXFechaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ReporteTicketsCanceladosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents PagosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaldosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CortePorDiaPagosDiversosToolStripMenuItem As ToolStripMenuItem
 End Class

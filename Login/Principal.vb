@@ -169,48 +169,48 @@ Public Class Principal
         frmGeneraExcel.ShowDialog()
     End Sub
 
-    Private Sub AgregarRecaudacionToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AgregarRecaudacionToolStripMenuItem.Click
-        frmRecaudacion.ShowDialog()
+    Private Sub AgregarRecaudacionToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        frmCorteXDia.ShowDialog()
     End Sub
 
-    Private Sub ImprimirReporteRecaudacionTotalToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ImprimirReporteRecaudacionTotalToolStripMenuItem.Click
-        Dim dt As New DataTable
-        Dim cr As New rptRecaudaciones
-        Dim R As New Reporte
-        Dim DataSet1 = New DataSet()
+    ' Private Sub ImprimirReporteRecaudacionTotalToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ImprimirReporteRecaudacionTotalToolStripMenuItem.Click
+    ' Dim dt As New DataTable
+    ' Dim cr As New rptRecaudaciones
+    ' Dim R As New Reporte
+    ' Dim DataSet1 = New DataSet()
 
-        sql = "SELECT Fecha,cveOficina,(SELECT Nombre FROM CatOficinasDtVax where Clave = cveoficina) as NombreOficina," & _
-        "cveResponsable,(SELECT NomDtVax FROM CatResponsablesDtvax where Clave = cveResponsable) as NombreResponsable," & _
-        "ImporteDepositado, ImporteEfectivo FROM MovRecaudaciones WHERE Fecha='" & Date.Now.ToString("dd/MM/yyyy") & "' AND cveOficina=" & cveOficina & ""
+    '        sql = "SELECT Fecha,cveOficina,(SELECT Nombre FROM CatOficinasDtVax where Clave = cveoficina) as NombreOficina," & _
+    '        "cveResponsable,(SELECT NomDtVax FROM CatResponsablesDtvax where Clave = cveResponsable) as NombreResponsable," & _
+    '        "ImporteDepositado, ImporteEfectivo FROM MovRecaudaciones WHERE Fecha='" & Date.Now.ToString("dd/MM/yyyy") & "' AND cveOficina=" & cveOficina & ""
+    '
+    '    Dim connSub As New SqlConnection(connStringSql)
+    '        connSub.Open()
+    '        cmd = New SqlCommand(sql, connSub)
+    '        reader = cmd.ExecuteReader
+    '    If reader.HasRows = False Then
+    '            MessageBox.Show("No se ha Generado la Recaudacion del Día", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '            reader.Close()
+    '            connSub.Close()
+    '    Exit Sub
+    '    End If
+    '        reader.Close()
+    '        connSub.Close()
+    '
+    '   Dim mda2 = New SqlDataAdapter(sql, conn)
+    '       mda2.Fill(DataSet1, "MovRecaudaciones")
 
-        Dim connSub As New SqlConnection(connStringSql)
-        connSub.Open()
-        cmd = New SqlCommand(sql, connSub)
-        reader = cmd.ExecuteReader
-        If reader.HasRows = False Then
-            MessageBox.Show("No se ha Generado la Recaudacion del Día", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            reader.Close()
-            connSub.Close()
-            Exit Sub
-        End If
-        reader.Close()
-        connSub.Close()
 
-        Dim mda2 = New SqlDataAdapter(sql, conn)
-        mda2.Fill(DataSet1, "MovRecaudaciones")
-
-
-        cr.DataDefinition.FormulaFields("NombreEmpresa").Text = "'Servicios Urbanos y Sub-Urbanos Xinantecatl S.A. de C.V.'"
-        cr.DataDefinition.FormulaFields("RFC").Text = "'SUS 810803 QN0'"
-        cr.DataDefinition.FormulaFields("dirCalle").Text = "'Cristobal Colon #212, Barrio de San Miguel Zinacantepec,'"
-        cr.DataDefinition.FormulaFields("dirColonia").Text = "'Estado de México C.P. 51350'"
-        cr.SetDataSource(DataSet1)
-        R.CrystalReportViewer1.ReportSource = cr
-        'cr.PrintToPrinter(1, False, 0, 0)
-        R.MdiParent = Me
-        R.WindowState = FormWindowState.Maximized
-        R.Show()
-    End Sub
+    '       cr.DataDefinition.FormulaFields("NombreEmpresa").Text = "'Servicios Urbanos y Sub-Urbanos Xinantecatl S.A. de C.V.'"
+    '       cr.DataDefinition.FormulaFields("RFC").Text = "'SUS 810803 QN0'"
+    '       cr.DataDefinition.FormulaFields("dirCalle").Text = "'Cristobal Colon #212, Barrio de San Miguel Zinacantepec,'"
+    '       cr.DataDefinition.FormulaFields("dirColonia").Text = "'Estado de México C.P. 51350'"
+    '       cr.SetDataSource(DataSet1)
+    '       R.CrystalReportViewer1.ReportSource = cr
+    '       'cr.PrintToPrinter(1, False, 0, 0)
+    '      R.MdiParent = Me
+    '      R.WindowState = FormWindowState.Maximized
+    '      R.Show()
+    '  End Sub
 
     Private Sub ReporteResumenTicketsXFechaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ReporteResumenTicketsXFechaToolStripMenuItem.Click
         frmReporte.MdiParent = Me
@@ -228,6 +228,10 @@ Public Class Principal
 
     Private Sub SaldosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaldosToolStripMenuItem.Click
         frmPagoOperadores.ShowDialog()
+    End Sub
+
+    Private Sub CortePorDiaPagosDiversosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CortePorDiaPagosDiversosToolStripMenuItem.Click
+        frmCorteXDia.Show()
     End Sub
 
     Private Sub ReporteTicketsCanceladosToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ReporteTicketsCanceladosToolStripMenuItem.Click

@@ -186,10 +186,10 @@
     <Compile Include="frmPagoOperadores.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRecaudacion.Designer.vb">
-      <DependentUpon>frmRecaudacion.vb</DependentUpon>
+    <Compile Include="frmCorteXDia.Designer.vb">
+      <DependentUpon>frmCorteXDia.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmRecaudacion.vb">
+    <Compile Include="frmCorteXDia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmRegTicket.Designer.vb">
@@ -274,6 +274,12 @@
       <DependentUpon>rptTicketsCancelados.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="rptCorteXDia.vb">
+      <DependentUpon>rptCorteXDia.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="TicketPagos.vb">
       <DependentUpon>TicketPagos.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -322,8 +328,8 @@
     <EmbeddedResource Include="frmPagoOperadores.resx">
       <DependentUpon>frmPagoOperadores.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRecaudacion.resx">
-      <DependentUpon>frmRecaudacion.vb</DependentUpon>
+    <EmbeddedResource Include="frmCorteXDia.resx">
+      <DependentUpon>frmCorteXDia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegTicket.resx">
       <DependentUpon>frmRegTicket.vb</DependentUpon>
@@ -368,6 +374,10 @@
     <EmbeddedResource Include="rptTicketsCancelados.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>rptTicketsCancelados.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCorteXDia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCorteXDia.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TicketPagos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
